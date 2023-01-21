@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 >Exam Registration Form </h2>
+        <input type="text" class="input" id="name" placeholder="Enter your Name">
+
+        <input type="email" class="input" id="email" placeholder="Enter your Email">
+
+        <input type="age" class="input" id="age" placeholder=" Enter your Age">
+
+        <button class="btn" onclick="register()">Register Now</button>
+    </div>
+
+    <div class="users-detail">
+        <div class="user-output">
+            <div class="users-info">
+                <p class="name">Name:</p>
+                <p class="email">Email:</p>
+                <p class="age">Age:</p>
+                <p class="center" id="examCenter">Exam Center:</p>
+            </div>
+        </div>
+    </div>
+    <div class="d-none" id="alert"></div>
+    <div class="d-none" id="centerDisplay"></div>
+    <script src="app.js"></script>
+</body>
+</html>
