@@ -118,5 +118,5 @@
     width: 350px;
     margin: 0 10px 10px 0;
     border: 2px solid rgb(31, 181, 20);
-    border-radius:10px;
+    border-radius:0 10px 10px 0;
 }
